@@ -22,7 +22,7 @@ group= "rawr" // http://maven.apache.org/guides/mini/guide-naming-conventions.ht
 archivesBaseName = "Netcraft"
 
 minecraft {
-    version = "1.8-11.14.1.1336"
+    version = "1.8-11.14.1.1341"
     mappings = "snapshot_20150327"
 }
 

@@ -1,5 +1,9 @@
 {
 	"variants": {
-		"normal": { "model": "netcraft:computer" }
+		"normal": { "model": "netcraft:computer" },
+        "facing=north": { "model": "netcraft:computer" },
+        "facing=south": { "model": "netcraft:computer", "y": 180 },
+        "facing=west":  { "model": "netcraft:computer", "y": 270 },
+        "facing=east":  { "model": "netcraft:computer", "y": 90 }
 	}
 }

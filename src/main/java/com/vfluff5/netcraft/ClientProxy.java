@@ -1,7 +1,11 @@
 package com.vfluff5.netcraft;
 
 import com.vfluff5.netcraft.renderers.RenderComputer;
+import com.vfluff5.netcraft.renderers.RenderRouter;
+import com.vfluff5.netcraft.renderers.RenderSwitch;
 import com.vfluff5.netcraft.tileentities.TileEntityComputer;
+import com.vfluff5.netcraft.tileentities.TileEntityRouter;
+import com.vfluff5.netcraft.tileentities.TileEntitySwitch;
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.ItemModelMesher;
@@ -18,6 +22,8 @@ public class ClientProxy extends CommonProxy {
 		super.LoadThings();
 		registerModels();
 		ClientRegistry.bindTileEntitySpecialRenderer(TileEntityComputer.class, new RenderComputer());
+		ClientRegistry.bindTileEntitySpecialRenderer(TileEntitySwitch.class, new RenderSwitch());
+		ClientRegistry.bindTileEntitySpecialRenderer(TileEntityRouter.class, new RenderRouter());
 	}
 
 	public void registerModels() {
