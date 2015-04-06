@@ -1,0 +1,9 @@
+{
+	"variants": {
+		"normal": { "model": "netcraft:switch" },
+        "facing=north": { "model": "netcraft:switch" },
+        "facing=south": { "model": "netcraft:switch", "y": 180 },
+        "facing=west":  { "model": "netcraft:switch", "y": 270 },
+        "facing=east":  { "model": "netcraft:switch", "y": 90 }
+	}
+}

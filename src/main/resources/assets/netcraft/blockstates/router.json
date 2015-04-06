@@ -1,0 +1,9 @@
+{
+	"variants": {
+		"normal": { "model": "netcraft:router" },
+        "facing=north": { "model": "netcraft:router" },
+        "facing=south": { "model": "netcraft:router", "y": 180 },
+        "facing=west":  { "model": "netcraft:router", "y": 270 },
+        "facing=east":  { "model": "netcraft:router", "y": 90 }
+	}
+}
